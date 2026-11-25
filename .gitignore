@@ -1,0 +1,27 @@
+# Dataset and images (the dataset lives on Roboflow)
+data/
+Sample Images/
+*.zip
+
+# Model weights and training runs
+*.pt
+*.pth
+*.onnx
+runs/
+weights/
+
+# Course material (not ours to publish)
+ARI3129 Project*.pdf
+
+# Secrets
+.env
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
