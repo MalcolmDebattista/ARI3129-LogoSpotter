@@ -8,10 +8,11 @@ This project detects logos that physically appear in television news footage (on
 
 | Member | Object detector | Notebook |
 |---|---|---|
-| Malcolm Debattista | _TBD_ | `2_[Model]_DebattistaMalcolm.ipynb` |
-| _TBD_ | _TBD_ | |
-| _TBD_ | _TBD_ | |
-| _TBD_ | _TBD_ | |
+| Malcolm Debattista | YOLO11 (Ultralytics) | `2_YOLO11_DebattistaMalcolm.ipynb` |
+| _Member 2_ | Faster R-CNN (torchvision) | `2_FasterRCNN_[Name].ipynb` |
+| _Member 3_ | RF-DETR | `2_RFDETR_[Name].ipynb` |
+
+See [WORKPLAN.md](WORKPLAN.md) for who does what and when.
 
 ## Dataset
 
@@ -34,6 +35,8 @@ All boxes were drawn manually in Roboflow, without AI-assisted or automatic anno
 ├── 2_ObjectDetector_template.ipynb      # Task 2: copy and rename per student
 ├── 2_[Model]_[StudentName].ipynb        # Task 2: one notebook per student
 ├── 3_results_comparison.ipynb           # Task 2: comparison of all detectors
+├── metadata/frame_metadata.csv          # video source, timestamp, broadcaster and region per frame
+├── figures/                             # figures saved by the notebooks for the report
 ├── results/                             # metrics exported by each detector notebook (JSON)
 └── data/                                # dataset downloaded from Roboflow (not committed)
 ```
